@@ -4,7 +4,7 @@ region = "us-east-1"
 
 resource "aws_instance" "one" {
 count = 5
-ami = "ami-0ddc798b3f1a5117e"
+ami = "ami-05fa46471b02db0ce"
 instance_type = "t2.medium"
 key_name = "krushna"
 vpc_security_group_ids = ["sg-03877bde6b76d53cc"]
